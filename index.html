@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>じゃんけん</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class= wrap>
+    <h1 class= title>じゃんけんゲーム</h1>
+
+<div>
+    <p class=who> あなた</p>
+    <p class="icon">出したい手をクリックしてください</p>
+
+
+    <ul  class=pic>
+        <li id="goo"> 
+            <p><img src="img/グー.jpg" alt="グー" width=200px></p>
+            <p class=icon>グー</p>
+        </li>
+        
+        <li id="choki">
+            <p><img src="img/チョキ.jpg" alt="チョキ" width=200px></p>
+            <p class=icon>チョキ</p>
+        </li>
+        
+        <li id="pa">
+            <p><img src="img/パー.jpg" alt="パー" width=200px></p>
+            <p class=icon>パー</p>
+        </li>
+      </ul>
+   
+      <div>
+        <p class="who">サザエさん</p>
+      <div id="pc">          
+        <p class="sazae">
+            <img src="img/サザエさん.jpg" alt="磯野" class="pcimg">
+        </p>
+    </div>
+</div>  
+
+        <div id="result">
+          <p>結果</p>    
+    </div>
+
+</div>
+
+<script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
